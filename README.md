@@ -18,8 +18,7 @@ git clone https://github.com/SusanJJN/Aurora-Subsotrm-Prediction.git
 ```python
 pip install requirements.txt
 ```
-3. Delete readme files in all the output directories (data, logs, models, results)
-Your directory tree should look like this:
+3. Your directory tree should look like this:
 ```
 Aurora-Substorm-Prediction
 ├── npz
