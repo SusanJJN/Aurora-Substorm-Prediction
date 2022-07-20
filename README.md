@@ -29,7 +29,7 @@ Aurora-Substorm-Prediction
 ```
 
 # Data preparation
-For training and testing, we use npz files instead of oringinal jpg images. You can download all the npz files ([training](https://github.com/SusanJJN/Aurora-Substrom-Prediction/releases/download/v1.0/training_set.rar), ([test](https://github.com/SusanJJN/Aurora-Substorm-Prediction/releases/download/v1.0/test_set.rar) here. After downloading, unzip the .rar and put the training set in /npz/train and put the test set in /npz/test. 
+For training and testing, we use npz files instead of oringinal jpg images. You can download all the npz files ([training](https://github.com/SusanJJN/Aurora-Substrom-Prediction/releases/download/v1.0/training_set.rar), [test](https://github.com/SusanJJN/Aurora-Substorm-Prediction/releases/download/v1.0/test_set.rar)) here. After downloading, unzip the .rar and put the training set in /npz/train and put the test set in /npz/test. 
 
 # Generate bootstrap sampling sets
 ```python
