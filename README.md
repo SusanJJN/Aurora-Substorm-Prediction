@@ -23,7 +23,12 @@ Your directory tree should look like this:
 ```
 Aurora-Substorm-Prediction
 ├── npz
+├── results
 ├── src
+    ├── data
+    ├── model
+        ├── ConvLSTM
+    ├── util
 ├── README.md
 └── requirements.txt
 ```
