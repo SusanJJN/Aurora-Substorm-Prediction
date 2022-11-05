@@ -24,15 +24,10 @@ hidden_channels_list: List[int] = [8, 8]
 kernel_size_list: List[int] = [3, 3]
 forget_bias: float = 0.01
 
-
-learning_rate: float = 0.001
 batch_size: int = 1
 test_bs: int=1
 patch: int = 1
 device: str = "cuda:0"
-test_frequency: int = 1
-max_epochs = 100
-start_save = 0
 
 # This is a default result_root for checkpoint.pth, you can change this result_root
 result_root = 'results/'
