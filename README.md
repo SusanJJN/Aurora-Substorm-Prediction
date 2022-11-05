@@ -60,10 +60,10 @@ cd src
 python aggregate.py
 ```
 
-A pretrained [model](https://github.com/SusanJJN/Aurora-Substorm-Prediction/releases/download/v1.0/Model.pth) can be downloaded, which was trained using the whole training set. This model is provided for testing.
-```python
-cd src/model/ConvLSTM
-python runTest.py
-```
+A pretrained [model](https://github.com/SusanJJN/Aurora-Substorm-Prediction/releases/download/v1.0/Model.pth) can be downloaded, which was trained using the whole training set. 
+
+If you want to test this model, please put it in the ./src/model/ConvLSTM/results and rename it as 'checkpoint.pth'.
+
+Then 
 
 If you have any problem, you can leave your questions in Issues. We will be happy to help.
