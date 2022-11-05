@@ -56,7 +56,7 @@ python aggregate.py
 ```
 
 A pretrained model can be downloaded, which was trained using the whole training set. This model is provided for testing.
-'''python
+```python
 cd src/model/ConvLSTM
 python runTest.py
-'''
+```
