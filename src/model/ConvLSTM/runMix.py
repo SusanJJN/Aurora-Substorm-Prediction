@@ -5,8 +5,6 @@ import sys
 sys.path.append('./src')
 from torch import nn, optim
 from torch.utils.data import DataLoader
-from util.data_parallel import BalancedDataParallel
-from util.parallel_v2 import DataParallelModel, DataParallelCriterion
 
 from ConvLSTM import ConvLSTM
 from data import AuroraDatasetMix
