@@ -13,8 +13,6 @@ from data import AuroraDatasetMix
 from util import TrainingTemplate
 from util.TestingTemplate import TestingTemplate
 from util.transforms.patch import reshape_patch, reshape_patch_back
-from data.seq_generator import *
-from data.train_corr_scripts import *
 import torch
 import os
 import shutil
@@ -160,7 +158,6 @@ if __name__ == '__main__':
         train(20, boot)
         test_long_seq(20, boot)
 
-#     test_long_seq(20, 0)
         
         
         
