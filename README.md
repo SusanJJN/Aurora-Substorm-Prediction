@@ -33,7 +33,8 @@ Aurora-Substorm-Prediction
 ```
 
 # Data preparation
-For training and testing, we use npz files instead of oringinal jpg images. Put the training set in /npz/train and put the test set in /npz/test. 
+For training and testing, we use npz files instead of oringinal jpg images. 
+Put the training set in /npz/train and put the test set in /npz/test. 
 You can download the [dataset](https://github.com/SusanJJN/Aurora-Substorm-Prediction/releases/download/v1.0/Dataset.rar).
 
 # Generate bootstrap sampling sets
@@ -47,7 +48,8 @@ python bootstrap.py
 cd src/model/ConvLSTM
 python runMix.py
 ```
-The code will finish the training processes on all the bootstrap sampling sets and generate the testing results. The testing results are saved in the long_test file in each training log file, and the checkpoint.pth is the saved best model file.
+The code will finish the training processes on all the bootstrap sampling sets and generate the testing results. 
+The testing results are saved in the long_test file in each training log file, and the checkpoint.pth is the saved best model file.
 
 # Generate final prediction
 ```python
@@ -60,3 +62,5 @@ A pretrained [model](https://github.com/SusanJJN/Aurora-Substorm-Prediction/rele
 cd src/model/ConvLSTM
 python runTest.py
 ```
+
+If you have any problem, you can leave your questions in Issues. We will be happy to help.
