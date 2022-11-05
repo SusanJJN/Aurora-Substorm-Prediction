@@ -55,7 +55,7 @@ cd src
 python aggregate.py
 ```
 
-A pretrained model can be downloaded, which was trained using the whole training set. This model is provided for testing.
+A pretrained [model](https://github.com/SusanJJN/Aurora-Substorm-Prediction/releases/download/v1.0/Model.pth) can be downloaded, which was trained using the whole training set. This model is provided for testing.
 ```python
 cd src/model/ConvLSTM
 python runTest.py
