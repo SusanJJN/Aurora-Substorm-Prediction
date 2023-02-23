@@ -60,7 +60,7 @@ cd src
 python aggregate.py
 ```
 
-The pretrained [models](https://github.com/SusanJJN/Aurora-Substorm-Prediction/releases/download/v1.2/Model.rar) can be downloaded, which were trained using the bootstrap sampling sets. 
+The pretrained [models](https://github.com/SusanJJN/Aurora-Substorm-Prediction/releases/download/v1.2/Models.rar) can be downloaded, which were trained using the bootstrap sampling sets. 
 
 If you want to test this model, please put it in the ./src/model/ConvLSTM/results and rename it as 'checkpoint.pth'.
 
