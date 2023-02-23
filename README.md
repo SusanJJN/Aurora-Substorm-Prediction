@@ -37,7 +37,7 @@ For training and testing, we use npz files instead of oringinal jpg images.
 
 Put the training set in /npz/train and put the test set in /npz/test.
 
-You can download the [dataset](https://github.com/SusanJJN/Aurora-Substorm-Prediction/releases/download/v1.0/Dataset.rar).
+You can download the [dataset](https://github.com/SusanJJN/Aurora-Substorm-Prediction/releases/download/v1.2/Dataset.rar).
 
 # Generate bootstrap sampling sets
 ```python
@@ -60,7 +60,7 @@ cd src
 python aggregate.py
 ```
 
-A pretrained [model](https://github.com/SusanJJN/Aurora-Substorm-Prediction/releases/download/v1.0/Model.pth) can be downloaded, which was trained using the whole training set. 
+The pretrained [models](https://github.com/SusanJJN/Aurora-Substorm-Prediction/releases/download/v1.2/Model.rar) can be downloaded, which were trained using the bootstrap sampling sets. 
 
 If you want to test this model, please put it in the ./src/model/ConvLSTM/results and rename it as 'checkpoint.pth'.
 
